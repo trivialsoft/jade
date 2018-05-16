@@ -1,5 +1,5 @@
 # El Proyecto JADE
-## (Just Another Developer Engine)
+## (Just Another Development Engine)
 > Por Antonio Ramírez Santander
 
 ## Archivos JADE

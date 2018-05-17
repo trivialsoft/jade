@@ -4,7 +4,7 @@
 
 > JADE es uno motor para la automatización de la generacíon de código fuente mediante el uso
 > de modelos de negocio (classes) definidos en un metalenguaje llamedo ML (Modeling Language) y 
-> mediante el uso de plantillas t4u. 
+> mediante el uso de un lenguaje de plantillas T4U (Time For You). 
 
 ## Instruccion Bloque 
 

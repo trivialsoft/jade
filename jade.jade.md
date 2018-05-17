@@ -2,9 +2,9 @@
 
 ### IMPORTA LOS TIPO DE DATOS 
 
-´´´jade
+```jade
 jade::{}[conf/types.jade]{{}}
-´´´
+```
 ### LAS CONFIGURACIONES DE LOS WORKSPACES
 ```jade
 setting::{}[]{{

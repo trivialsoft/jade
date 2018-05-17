@@ -8,25 +8,25 @@
 
 ## Usuarios
 
-## Archivos JADE
+## Los Archivos JADE
 
-## Configuraciones
+## Las Configuraciones
 
-## La secuencias
+## Las Secuencias
 
 ## Los Listeners
 
 ## Los modelos
 
-## Plantillas
+## Las Plantillas
 
-## Los tipos
+## Los Tipos de Datos
 
-## Los nombres 
+## Los Nombres 
 
-## Los nombres de ui
+## Los Nombres de ui
 
-## Los Keys
+## Las Keys
 
 ## Los Grupos de propiedades 
 
@@ -34,10 +34,10 @@
 
 ## Los Partners
 
-## La Precedencias
+## Las Precedencias
 
 ## Los Cambios
 
-## La Pubicacion
+## La Publicacion
 
 ## Los Guardas de datos

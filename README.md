@@ -56,7 +56,9 @@ Son las agrupaciones de propiedades de modelos
 ## Las Precedencias
 
 ## Los Cambios
+Los cambios en los modelos disparan la generacion de codigo.
 
 ## La Publicacion
 
 ## Los Guardas de datos
+Ciertos datos sensibles...

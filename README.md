@@ -6,17 +6,18 @@
 > de modelos de negocio (classes) definidos en un metalenguaje llamedo ML (Modeling Language) y 
 > mediante el uso de un lenguaje de plantillas T4U (Time For You).
 > Este motor leer archivos de texto plano y reconoce los siguientes tipo de elementos
-> identificados en una instruccion bloque.Los elementos son los siguientes: 
+> identificados en una instruccion bloque. Los elementos son los siguientes: 
 
 ## Instruccion Bloque 
-> Es la instruccion que permite indentificar los distintos elementos de un arcivo jade
+> Es la instrucción que permite indentificar los distintos elementos de un archivo jade
 >
 
 ## Los Workspaces 
-> Son los proyectos o contenedores que relacionan cierto tipo de clases de negocio 
+> Son espacios de trabajo, proyectos o contenedores que agrupan cierto tipo de clases de negocio. 
 >
 
 ## Usuarios
+> Es la informacion del developer
 
 ## Los Archivos JADE
  Son archivos de texto que incluyen, modelos, templates, configuraciones, tipos, etc. usualmente 
@@ -40,11 +41,14 @@ Son texto plano con instrucciones PQL para la seleccion de propiedades en los mo
 ## Los Tipos de Datos
 Son la equivalencia de los tipos base del lenguaje ML en el lenguaje de programacion final.
  
-## Los Nombres 
+## Los Nombres
+Son los nombres en plural de las colecciones de modelos.  
 
 ## Los Nombres de ui
+Son los nombres de las propiedades de un modelo, en una interfaz de usuario.
 
 ## Las Keys
+Son texto fijo en los templates...
 
 ## Los Grupos de propiedades 
 Son las agrupaciones de propiedades de modelos
@@ -52,8 +56,10 @@ Son las agrupaciones de propiedades de modelos
 ## Los Recursos 
 
 ## Los Partners
+Son los demas developer en los que se puede confiar como recurso adicionales(jades remotos)
 
 ## Las Precedencias
+Existe una precedencia en la seleccion de los elementos...
 
 ## Los Cambios
 Los cambios en los modelos disparan la generacion de codigo.

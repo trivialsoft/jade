@@ -9,8 +9,12 @@
 > identificados en una instruccion bloque.Los elementos son los siguientes: 
 
 ## Instruccion Bloque 
+> Es la instruccion que permite indentificar los distintos elementos de un arcivo jad
+>
 
 ## Los Workspaces 
+> Son los proyectos o contenedores que relacionan cierto tipo de clases de negocio 
+>
 
 ## Usuarios
 

@@ -19,14 +19,20 @@
 ## Usuarios
 
 ## Los Archivos JADE
+ Son archivos de texto que incluyen, modelos, templates, configuraciones, tipos, etc. usualmente 
+ usan lenguaje MARKDOWN para poder presentarse como autodocumentacion.
 
 ## Las Configuraciones
+Son la configuraciones generales de cada WOKSPACE
 
 ## Las Secuencias
+Son la instrucciones para la generacion de archivos de codigo
 
 ## Los Listeners
+Son el alcance de la manufactura en los modelos
 
 ## Los modelos
+Son las clases de negocio expresados en lenguaje ML 
 
 ## Las Plantillas
 

@@ -108,15 +108,33 @@ tt::{}[c#.class.tpl]{{
 
 ## Los Tipos de Datos
 
-Son la equivalencia de los tipos base del lenguaje ML en el lenguaje de programacion final.
+> Son la equivalencia de los tipos base del lenguaje ML en el lenguaje de programacion final.
  
+ ```jade
+type::{}[]{{
+
+}}
+ ```
+
 ## Los Nombres
 
-Son los nombres en plural de las colecciones de modelos.  
+> Son los nombres en plural de las colecciones de modelos.  
+
+```jade
+name::{}[]{{
+Model=collection_name
+}}
+```
 
 ## Los Nombres de ui
 
-Son los nombres de las propiedades de un modelo, en una interfaz de usuario.
+> Son los nombres de las propiedades de un modelo, en una interfaz de usuario.
+
+```jade
+ui::{}[]{{
+name=ui name
+}}
+```
 
 ## Las Keys
 

@@ -8,16 +8,17 @@
 > Este motor leer archivos de texto plano y reconoce los siguientes tipo de elementos
 > identificados en una instruccion bloque. Los elementos son los siguientes: 
 
-## Instruccion Bloque 
-> Es la instrucción que permite indentificar los distintos elementos de un archivo jade
-```jade
+## Instruccion Bloque
 
+> Es la instrucción que permite indentificar los distintos elementos de un archivo jade
+
+```jade
 JADE_ITEM_NAME::{}[]{{
 ## Aqui va la definicion
 }}
-
 ```
-> Los Jade Items pueden ser los siguintres:
+
+> Los Jade Items pueden ser los siguientes:
 
 |Item|Descripción|
 |----|----|
@@ -45,30 +46,66 @@ JADE_ITEM_NAME::{}[]{{
 
 ## Los Archivos JADE
 
- Son archivos de texto que incluyen, modelos, templates, configuraciones, tipos, etc. usualmente 
+ > Son archivos de texto que incluyen, modelos, templates, configuraciones, tipos, etc. usualmente 
  usan lenguaje MARKDOWN para poder presentarse como autodocumentacion.
+
+```jade
+
+jade::{}[PATH_FILE](PATH_FILE){{}}
+
+```
 
 ## Las Configuraciones
 
+> Son la configuraciones generales de cada WOKSPACE
 
-Son la configuraciones generales de cada WOKSPACE
+```jade
+setting::{}[]{{
+common.out=c:/out/html/templatengine/
+ts.out=c:/out/html/templatengine/
+}}
+```
 
 ## Las Secuencias
 
-Son la instrucciones para la generacion de archivos de codigo
+> Son la instrucciones para la generacion de archivos de codigo
+
+```jade
+sequence::{c#}[TS_CLASS]{{
+class.tpl c# src/model/{classname}.cs
+}}
+```
 
 ## Los Listeners
 
-Son el alcance de la manufactura en los modelos
+> Son el alcance de la manufactura en los modelos
+
+```jade
+listener::{common}[LS_ANYCHANGE]{{
+TS_CLASS c# *,!Factory,!Jade
+}}
+```
 
 ## Los modelos
 
-Son las clases de negocio expresados en lenguaje ML 
+> Son las clases de negocio expresados en lenguaje ML 
+
+```jade
+model::{}[]{{
+
+}}
+```
 
 ## Las Plantillas
 
-Son texto plano con instrucciones PQL para la seleccion de propiedades en los modelos
- 
+> Son texto plano con instrucciones PQL para la seleccion de propiedades en los modelos
+
+```jade
+tt::{}[c#.class.tpl]{{
+
+}} 
+```
+
 ## Los Tipos de Datos
 
 Son la equivalencia de los tipos base del lenguaje ML en el lenguaje de programacion final.

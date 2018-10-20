@@ -10,7 +10,25 @@
 
 ## Instruccion Bloque 
 > Es la instrucción que permite indentificar los distintos elementos de un archivo jade
->
+```jade
+
+JADE_ITEM_NAME::{}[]{{
+## Aqui va la definicion
+}}
+
+```
+> Los Jade Items pueden ser los siguintres:
+* jade::
+* setting::
+* sequence::
+* listener::
+* model::
+* tt::
+* type::
+* name::
+* ui::
+* key::
+* group::
 
 ## Los Workspaces 
 > Son espacios de trabajo, proyectos o contenedores que agrupan cierto tipo de clases de negocio. 
